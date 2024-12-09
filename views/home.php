@@ -11,11 +11,11 @@
         <div class="container">
             <a href = "#" class="navbar-brand">My Portfolio</a>
             <ul class="navbar-nav mx-auto">
-                <li><a href="" class="nav-link">Home</a></li>
-                <li><a href="" class="nav-link">About</a></li>
-                <li><a href="" class="nav-link">Portfolio</a></li>
-                <li><a href="" class="nav-link">Contact</a></li>
-                <li><a href="" class="nav-link">Gallery</a></li>
+                <li><a href="web.php?page=home" class="nav-link">Home</a></li>
+                <li><a href="web.php?page=about" class="nav-link">About</a></li>
+                <li><a href="web.php?page=portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="web.php?page=contact" class="nav-link">Contact</a></li>
+                <li><a href="web.php?page=gallery" class="nav-link">Gallery</a></li>
             </ul>
             <ul class="navbar-nav">
                <li><a href=""class="nav-link">Login</a></li> 
@@ -131,6 +131,16 @@
             </div>
         </div>
     </section>
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-white text-center mb-0">copyright@abubakkar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
